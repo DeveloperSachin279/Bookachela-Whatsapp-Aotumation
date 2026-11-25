@@ -1,0 +1,8 @@
+node_modules/
+.env
+service-account.json
+cloudflared.exe
+uploads/
+*.log
+.DS_Store
+

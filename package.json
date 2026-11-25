@@ -1,0 +1,27 @@
+{
+  "name": "bookachela-whatsapp-automation",
+  "version": "1.0.0",
+  "description": "Meta WhatsApp Cloud API Automation & Lead Routing for BookAChela",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test-flow": "node test-flow.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "meta-cloud-api",
+    "automation",
+    "lead-generation",
+    "google-sheets"
+  ],
+  "author": "BookAChela Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "googleapis": "^170.1.0",
+    "localtunnel": "^2.0.2"
+  }
+}
